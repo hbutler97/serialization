@@ -1,0 +1,11 @@
+// Example IDL file for our monster's schema.
+
+
+table Monster_table {
+  age:int;
+  name:string;
+}
+
+
+
+root_type Monster_table;
